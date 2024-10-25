@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_3"
+    android:gravity="center">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:background="@android:color/transparent"
+        android:columnCount="3">
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button2"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button3"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button4"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button5"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button6"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button7"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button8"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button9"
+            style="@style/TicTacToeButton"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"/>
+</LinearLayout>
